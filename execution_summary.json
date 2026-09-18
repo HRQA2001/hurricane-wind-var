@@ -1,0 +1,37 @@
+{
+  "engine": "Course Holland (1980) fallback, hourly linear interpolation",
+  "ensemble_members": 48,
+  "counties": 372,
+  "value_per_home_usd": 300000,
+  "portfolio_mean_usd": 34826930905.824066,
+  "portfolio_var_95_usd": 62311589683.57724,
+  "sum_county_var_95_usd": 98025232813.13185,
+  "percentile_comparison": [
+    {
+      "percentile": 50,
+      "portfolio_var_usd": 32639565522.03759,
+      "sum_county_var_usd": 24504737920.925156,
+      "weak_portfolio_var_usd": 187782357355.41968
+    },
+    {
+      "percentile": 95,
+      "portfolio_var_usd": 62311589683.57724,
+      "sum_county_var_usd": 98025232813.13185,
+      "weak_portfolio_var_usd": 299651382041.9521
+    },
+    {
+      "percentile": 99,
+      "portfolio_var_usd": 82908988937.39856,
+      "sum_county_var_usd": 159347841711.36954,
+      "weak_portfolio_var_usd": 384389252245.8026
+    }
+  ],
+  "illustrative_emissions_kg": 1.723546040263605e-05,
+  "limitations": [
+    "wind only",
+    "one point per county",
+    "flat exposure value",
+    "uncalibrated forecast ensemble",
+    "Holland fallback simplifications"
+  ]
+}

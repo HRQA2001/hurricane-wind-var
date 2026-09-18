@@ -1,0 +1,8 @@
+numpy==2.5.3
+pandas==3.0.6
+xarray==2026.7.0
+geopandas==1.1.4
+matplotlib==3.11.2
+scipy==1.18.1
+mapclassify==2.11.0
+codecarbon==3.3.1
